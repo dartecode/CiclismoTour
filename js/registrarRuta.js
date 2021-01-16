@@ -1,8 +1,10 @@
-function ruta() {
+function registrarRuta() {
     var nombre, cedula;
     nombre = document.getElementById("nombre").value;
     cedula = document.getElementById("cedula").value;
     ruta = document.getElementById("ruta").value;
+
+    console.log(nombre, cedula, ruta);
 
     if(nombre == "" || cedula == ""){
         alert("Todos los campos son obligatorios");
@@ -12,4 +14,5 @@ function ruta() {
         window.location = "InicioUser.html";
         return false;
     }
+    
 }
