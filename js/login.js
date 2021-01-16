@@ -10,7 +10,7 @@ function login(){
         alert("Bienvenido Admin");
         window.location = "InicioAdmin.html";
         return false;
-    } else if(usuario == "usuario" && clave == "usuario"){
+    } else if(usuario == "user" && clave == "1234"){
         alert("Has iniciado sesión correctamente");
         window.location = "InicioUser.html";
         return false;
